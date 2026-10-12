@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maverick Royal Suites & Hotel Ltd | Luxury Hospitality in Owerri</title>
+  <meta name="description" content="Experience five-star boutique luxury at Maverick Royal Suites & Hotel Ltd, Sir White Junction, Works Layout Road Extension, Owerri. Executive suites, fine dining, and world-class amenities." />
+  <meta property="og:title" content="Maverick Royal Suites & Hotel Ltd | Luxury Hospitality in Owerri" />
+  <meta property="og:description" content="Five-star boutique luxury in Owerri, Nigeria." />
+  <meta property="og:type" content="website" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            onyx: { DEFAULT: '#0F172A', deep: '#020617', mid: '#1E293B', light: '#334155' },
+            gold: { DEFAULT: '#D4AF37', light: '#E8C766', dark: '#B8941F', pale: '#F0E6C8' },
+            slatey: '#CBD5E1',
+            luxurywhite: '#F8FAFC',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    * { -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Inter', sans-serif; background: #020617; color: #F8FAFC; }
+    .font-serif { font-family: '"Playfair Display"', Georgia, serif; }
+    .gold-gradient { background: linear-gradient(135deg, #D4AF37 0%, #E8C766 50%, #B8941F 100%); }
+    .gold-text { background: linear-gradient(135deg, #D4AF37 0%, #E8C766 50%, #B8941F 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .glass-dark { background: rgba(15,23,42,0.55); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); }
+    .gold-border { border: 1px solid rgba(212,175,55,0.35); }
+    .luxury-shadow { box-shadow: 0 24px 60px -12px rgba(2,6,23,0.45); }
+    .gold-glow { box-shadow: 0 0 24px -4px rgba(212,175,55,0.45); }
+    .hero-gradient { background: linear-gradient(180deg, rgba(2,6,23,0.3) 0%, rgba(2,6,23,0.55) 50%, rgba(2,6,23,0.85) 100%); }
+    .container-luxury { max-width: 80rem; margin: 0 auto; padding-left: 1rem; padding-right: 1rem; }
+    @media(min-width:640px){ .container-luxury{padding-left:1.5rem;padding-right:1.5rem;} }
+    @media(min-width:1024px){ .container-luxury{padding-left:2rem;padding-right:2rem;} }
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.revealed { opacity: 1; transform: translateY(0); }
+    .nav-link.active { color: #D4AF37; }
+    #navbar.scrolled { background: rgba(15,23,42,0.55); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px) saturate(180%); border-bottom: 1px solid rgba(212,175,55,0.15); padding-top: 0.75rem; padding-bottom: 0.75rem; }
+    #navbar { transition: all 0.5s ease; }
+    [data-aos] { transition: opacity 0.6s ease, transform 0.6s ease; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #020617; }
+    ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 4px; }
+    input[type="date"] { color-scheme: dark; }
+  </style>
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar" class="fixed top-0 z-50 w-full py-5" style="background:transparent;">
+    <nav class="container-luxury flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2.5 group">
+        <svg class="w-7 h-7 text-gold transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 16L3 7l5.5 4L12 5l3.5 6L21 7l-2 9H5zm0 2h14"/></svg>
+        <div class="flex flex-col leading-none">
+          <span class="font-serif text-lg font-bold tracking-wide text-white">Maverick Royal</span>
+          <span class="text-[10px] uppercase tracking-[0.25em] text-gold/80">Suites & Hotel</span>
+        </div>
+      </a>
+      <ul class="hidden lg:flex items-center gap-8">
+        <li><a href="index.html" class="nav-link active text-sm font-medium tracking-wide text-white/85 hover:text-gold transition-colors">Home</a></li>
+        <li><a href="rooms.html" class="nav-link text-sm font-medium tracking-wide text-white/85 hover:text-gold transition-colors">Rooms</a></li>
+        <li><a href="amenities.html" class="nav-link text-sm font-medium tracking-wide text-white/85 hover:text-gold transition-colors">Amenities</a></li>
+        <li><a href="dining.html" class="nav-link text-sm font-medium tracking-wide text-white/85 hover:text-gold transition-colors">Dining</a></li>
+        <li><a href="contact.html" class="nav-link text-sm font-medium tracking-wide text-white/85 hover:text-gold transition-colors">Contact</a></li>
+      </ul>
+      <a href="rooms.html" class="hidden lg:inline-flex items-center rounded-full gold-border px-6 py-2.5 text-sm font-semibold text-gold transition-all duration-300 hover:bg-gold hover:text-onyx">Reserve Your Stay</a>
+      <button id="menu-open" class="lg:hidden text-white p-2" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== MOBILE MENU ========== -->
+  <div id="mobile-menu" class="fixed inset-0 z-[60] lg:hidden opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="absolute inset-0" style="background:rgba(2,6,23,0.95);backdrop-filter:blur(16px);"></div>
+    <div id="mobile-panel" class="relative flex h-full flex-col items-center justify-center gap-8 transform translate-x-full transition-transform duration-400" style="transition-timing-function:cubic-bezier(0.22,1,0.36,1);">
+      <button id="menu-close" class="absolute right-6 top-6 text-white p-2" aria-label="Close menu">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <a href="index.html" class="flex items-center gap-2.5 mb-4">
+        <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 16L3 7l5.5 4L12 5l3.5 6L21 7l-2 9H5zm0 2h14"/></svg>
+        <div class="flex flex-col leading-none"><span class="font-serif text-xl font-bold text-white">Maverick Royal</span><span class="text-[10px] uppercase tracking-[0.25em] text-gold/80">Suites & Hotel</span></div>
+      </a>
+      <ul class="flex flex-col items-center gap-7">
+        <li><a href="index.html" class="font-serif text-2xl text-gold">Home</a></li>
+        <li><a href="rooms.html" class="font-serif text-2xl text-white hover:text-gold transition-colors">Rooms</a></li>
+        <li><a href="amenities.html" class="font-serif text-2xl text-white hover:text-gold transition-colors">Amenities</a></li>
+        <li><a href="dining.html" class="font-serif text-2xl text-white hover:text-gold transition-colors">Dining</a></li>
+        <li><a href="contact.html" class="font-serif text-2xl text-white hover:text-gold transition-colors">Contact</a></li>
+      </ul>
+      <a href="rooms.html" class="mt-4 inline-flex items-center rounded-full bg-gold px-8 py-3 text-sm font-bold text-onyx">Reserve Your Stay</a>
+      <a href="tel:2347078365298" class="text-sm text-slatey mt-2">+234 707 836 5298</a>
+    </div>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="relative min-h-screen w-full overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.pexels.com/photos/14036253/pexels-photo-14036253.jpeg?auto=compress&cs=tinysrgb&h=1200&w=1920" alt="Maverick Royal Suites luxury lobby" class="h-full w-full object-cover" />
+      <div class="absolute inset-0 hero-gradient"></div>
+      <div class="absolute inset-0" style="background:linear-gradient(90deg, rgba(2,6,23,0.6), transparent, rgba(2,6,23,0.3));"></div>
+    </div>
+    <div class="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 text-center">
+      <div class="reveal flex items-center gap-2 rounded-full gold-border px-5 py-2 mb-6">
+        <svg class="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 16L3 7l5.5 4L12 5l3.5 6L21 7l-2 9H5zm0 2h14"/></svg>
+        <span class="text-[11px] uppercase tracking-[0.3em] text-gold font-medium">Owerri &middot; Nigeria</span>
+      </div>
+      <h1 class="reveal font-serif text-4xl font-bold leading-[1.1] text-white sm:text-5xl md:text-6xl lg:text-7xl max-w-4xl" style="text-wrap:balance;">
+        The Art of <span class="gold-text">Luxurious</span><br />Nigerian Hospitality
+      </h1>
+      <p class="reveal mt-6 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
+        Discover a five-star boutique experience at Maverick Royal Suites — where executive elegance, contemporary comfort, and world-class service converge in the heart of Owerri.
+      </p>
+      <div class="reveal mt-10 flex flex-col items-center gap-4 sm:flex-row">
+        <a href="#booking-widget" class="inline-flex items-center gap-2 rounded-full bg-gold px-8 py-3.5 text-sm font-bold text-onyx transition-all duration-300 hover:scale-105 hover:gold-glow">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          Book Your Stay
+        </a>
+        <a href="rooms.html" class="inline-flex items-center gap-2 rounded-full gold-border px-8 py-3.5 text-sm font-semibold text-gold transition-all duration-300 hover:bg-gold hover:text-onyx">Explore Suites</a>
+      </div>
+    </div>
+    <div class="reveal absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
+      <div class="flex flex-col items-center gap-1">
+        <span class="text-[10px] uppercase tracking-[0.3em] text-slate-400">Scroll</span>
+        <svg class="w-4 h-4 text-gold/60 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BOOKING WIDGET ========== -->
+  <div id="booking-widget" class="relative z-30 -mt-24 px-4 sm:px-6 lg:px-8">
+    <div class="reveal mx-auto max-w-6xl rounded-2xl glass-dark gold-border luxury-shadow p-5 md:p-7">
+      <div class="mb-4 flex items-center gap-2">
+        <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"/></svg>
+        <h2 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Reserve Your Suite</h2>
+      </div>
+      <form id="booking-form" class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5">
+        <div class="space-y-1.5">
+          <label class="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-slate-400"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg> Check-In</label>
+          <input type="date" id="check-in" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white focus:border-gold/50 focus:outline-none transition-colors" />
+        </div>
+        <div class="space-y-1.5">
+          <label class="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-slate-400"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg> Check-Out</label>
+          <input type="date" id="check-out" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white focus:border-gold/50 focus:outline-none transition-colors" />
+        </div>
+        <div class="space-y-1.5">
+          <label class="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-slate-400"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg> Adults</label>
+          <div class="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-3 py-2.5">
+            <button type="button" id="adults-minus" class="text-gold/70 hover:text-gold transition-colors"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/></svg></button>
+            <span id="adults-val" class="text-sm font-medium text-white">2</span>
+            <button type="button" id="adults-plus" class="text-gold/70 hover:text-gold transition-colors"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg></button>
+          </div>
+        </div>
+        <div class="space-y-1.5">
+          <label class="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-slate-400"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg> Children</label>
+          <div class="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-3 py-2.5">
+            <button type="button" id="children-minus" class="text-gold/70 hover:text-gold transition-colors"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/></svg></button>
+            <span id="children-val" class="text-sm font-medium text-white">0</span>
+            <button type="button" id="children-plus" class="text-gold/70 hover:text-gold transition-colors"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg></button>
+          </div>
+        </div>
+        <div class="space-y-1.5">
+          <label class="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-slate-400"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"/></svg> Room Type</label>
+          <select id="room-type" class="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white focus:border-gold/50 focus:outline-none transition-colors">
+            <option style="background:#0F172A">Executive Suite</option>
+            <option style="background:#0F172A">Royal Deluxe</option>
+            <option style="background:#0F172A">Presidential Penthouse</option>
+          </select>
+        </div>
+        <div class="flex items-end lg:col-span-5">
+          <button type="submit" class="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-bold text-onyx transition-all duration-300 hover:gold-glow hover:scale-105">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            Confirm Reservation
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========== WHY CHOOSE ========== -->
+  <section class="py-24 md:py-32 bg-onyx">
+    <div class="container-luxury">
+      <div class="reveal text-center mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">The Maverick Difference</span>
+        <h2 class="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl" style="text-wrap:balance;">Why Discerning Travelers <span class="gold-text">Choose Maverick</span></h2>
+        <p class="mt-5 max-w-2xl mx-auto text-base text-slate-400 leading-relaxed">Every element of your stay has been considered, refined, and elevated — from infrastructure to personalized service.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">Elite Security</h3><p class="text-sm leading-relaxed text-slate-400">Round-the-clock professional security with smart surveillance systems ensuring complete peace of mind throughout your stay.</p></div>
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">24-Hour Power</h3><p class="text-sm leading-relaxed text-slate-400">Uninterrupted power supply with redundant backup systems, so your comfort is never compromised — day or night.</p></div>
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">High-Speed Internet</h3><p class="text-sm leading-relaxed text-slate-400">Fiber-grade connectivity throughout the property, keeping you seamlessly connected for business and leisure.</p></div>
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">Premium Housekeeping</h3><p class="text-sm leading-relaxed text-slate-400">Immaculate rooms maintained to international five-star standards with eco-conscious luxury linens and toiletries.</p></div>
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">Executive Concierge</h3><p class="text-sm leading-relaxed text-slate-400">A dedicated concierge team available around the clock to curate every detail of your stay with effortless precision.</p></div>
+        <div class="reveal group h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7 transition-all duration-500 hover:border-gold/20"><div class="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 transition-all duration-300 group-hover:bg-gold/20 group-hover:scale-110"><svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><h3 class="font-serif text-xl font-bold text-white mb-2">Seamless Check-in</h3><p class="text-sm leading-relaxed text-slate-400">A streamlined arrival experience designed for the modern executive — fast, warm, and unmistakably luxurious.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED SUITES ========== -->
+  <section class="py-24 md:py-32 bg-onyx-deep">
+    <div class="container-luxury">
+      <div class="reveal flex flex-col items-center text-center mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Accommodations</span>
+        <h2 class="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl" style="text-wrap:balance;">Featured <span class="gold-text">Suites</span></h2>
+        <p class="mt-5 max-w-2xl text-base text-slate-400 leading-relaxed">Each suite is a private world of comfort — meticulously designed for the executive, the connoisseur, and the collector of fine experiences.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Executive Suite -->
+        <div class="reveal group h-full overflow-hidden rounded-xl border border-white/5 bg-onyx/50 transition-all duration-300 hover:-translate-y-2">
+          <div class="relative h-64 overflow-hidden"><img src="https://images.pexels.com/photos/2725675/pexels-photo-2725675.jpeg?auto=compress&cs=tinysrgb&h=800&w=1200" alt="Executive Suite" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep via-onyx-deep/20 to-transparent"></div><div class="absolute bottom-4 left-4 flex items-center gap-2 rounded-full glass-dark px-3 py-1.5"><span class="text-sm font-bold text-gold">₦85,000</span><span class="text-[10px] text-slate-400">per night</span></div></div>
+          <div class="p-6"><h3 class="font-serif text-xl font-bold text-white mb-2">Executive Suite</h3><p class="text-sm leading-relaxed text-slate-400 mb-4">A refined sanctuary designed for the discerning business traveler.</p><div class="flex items-center gap-4 mb-5 text-xs text-slate-500"><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>2 Guests</span><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>45 m²</span></div><div class="flex flex-wrap gap-1.5 mb-5"><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>King Bed</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Work Station</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Smart TV</span></div><a href="rooms.html" class="inline-flex items-center gap-1.5 text-sm font-semibold text-gold transition-colors hover:text-gold-light">View Details <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a></div>
+        </div>
+        <!-- Royal Deluxe -->
+        <div class="reveal group h-full overflow-hidden rounded-xl border border-white/5 bg-onyx/50 transition-all duration-300 hover:-translate-y-2">
+          <div class="relative h-64 overflow-hidden"><img src="https://images.pexels.com/photos/39725929/pexels-photo-39725929.jpeg?auto=compress&cs=tinysrgb&h=800&w=1200" alt="Royal Deluxe" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep via-onyx-deep/20 to-transparent"></div><div class="absolute bottom-4 left-4 flex items-center gap-2 rounded-full glass-dark px-3 py-1.5"><span class="text-sm font-bold text-gold">₦120,000</span><span class="text-[10px] text-slate-400">per night</span></div></div>
+          <div class="p-6"><h3 class="font-serif text-xl font-bold text-white mb-2">Royal Deluxe</h3><p class="text-sm leading-relaxed text-slate-400 mb-4">Spacious luxury with a private lounge and panoramic city views.</p><div class="flex items-center gap-4 mb-5 text-xs text-slate-500"><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>3 Guests</span><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>62 m²</span></div><div class="flex flex-wrap gap-1.5 mb-5"><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>King Bed</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Lounge Area</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>City View</span></div><a href="rooms.html" class="inline-flex items-center gap-1.5 text-sm font-semibold text-gold transition-colors hover:text-gold-light">View Details <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a></div>
+        </div>
+        <!-- Presidential Penthouse -->
+        <div class="reveal group h-full overflow-hidden rounded-xl border border-white/5 bg-onyx/50 transition-all duration-300 hover:-translate-y-2">
+          <div class="relative h-64 overflow-hidden"><img src="https://images.pexels.com/photos/35868592/pexels-photo-35868592.jpeg?auto=compress&cs=tinysrgb&h=800&w=1200" alt="Presidential Penthouse" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep via-onyx-deep/20 to-transparent"></div><div class="absolute bottom-4 left-4 flex items-center gap-2 rounded-full glass-dark px-3 py-1.5"><span class="text-sm font-bold text-gold">₦250,000</span><span class="text-[10px] text-slate-400">per night</span></div></div>
+          <div class="p-6"><h3 class="font-serif text-xl font-bold text-white mb-2">Presidential Penthouse</h3><p class="text-sm leading-relaxed text-slate-400 mb-4">The pinnacle of luxury — an expansive private residence in the sky.</p><div class="flex items-center gap-4 mb-5 text-xs text-slate-500"><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>4 Guests</span><span class="flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>120 m²</span></div><div class="flex flex-wrap gap-1.5 mb-5"><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Master Suite</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Dining Room</span><span class="inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-[10px] text-slate-400"><svg class="w-2.5 h-2.5 text-gold/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>Wrap Terrace</span></div><a href="rooms.html" class="inline-flex items-center gap-1.5 text-sm font-semibold text-gold transition-colors hover:text-gold-light">View Details <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a></div>
+        </div>
+      </div>
+      <div class="reveal mt-12 text-center">
+        <a href="rooms.html" class="inline-flex items-center gap-2 rounded-full gold-border px-8 py-3.5 text-sm font-semibold text-gold transition-all duration-300 hover:bg-gold hover:text-onyx">View All Suites <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LIFESTYLE ========== -->
+  <section class="py-24 md:py-32 bg-onyx">
+    <div class="container-luxury">
+      <div class="reveal text-center mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">The Maverick Experience</span>
+        <h2 class="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl" style="text-wrap:balance;">A Lifestyle Beyond <span class="gold-text">the Stay</span></h2>
+        <p class="mt-5 max-w-2xl mx-auto text-base text-slate-400 leading-relaxed">From sunrise breakfasts to candlelit evenings, every moment at Maverick Royal Suites is crafted to linger in memory.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+        <div class="reveal relative overflow-hidden rounded-xl group" style="grid-row:span 2;"><div class="relative h-full min-h-[200px] overflow-hidden rounded-xl"><img src="https://images.pexels.com/photos/7222168/pexels-photo-7222168.jpeg?auto=compress&cs=tinysrgb&h=800&w=600" alt="Indoor luxury pool" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep/90 via-transparent to-transparent"></div><div class="absolute bottom-4 left-4"><span class="text-xs font-semibold uppercase tracking-[0.15em] text-gold">Wellness & Spa</span></div></div></div>
+        <div class="reveal relative overflow-hidden rounded-xl group"><div class="relative h-full min-h-[200px] overflow-hidden rounded-xl"><img src="https://images.pexels.com/photos/23644633/pexels-photo-23644633.jpeg?auto=compress&cs=tinysrgb&h=500&w=600" alt="Fine dining plate" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep/90 via-transparent to-transparent"></div><div class="absolute bottom-4 left-4"><span class="text-xs font-semibold uppercase tracking-[0.15em] text-gold">Fine Dining</span></div></div></div>
+        <div class="reveal relative overflow-hidden rounded-xl group"><div class="relative h-full min-h-[200px] overflow-hidden rounded-xl"><img src="https://images.pexels.com/photos/12181761/pexels-photo-12181761.jpeg?auto=compress&cs=tinysrgb&h=500&w=600" alt="Executive lounge whiskey" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep/90 via-transparent to-transparent"></div><div class="absolute bottom-4 left-4"><span class="text-xs font-semibold uppercase tracking-[0.15em] text-gold">Executive Lounge</span></div></div></div>
+        <div class="reveal relative overflow-hidden rounded-xl group" style="grid-row:span 2;"><div class="relative h-full min-h-[200px] overflow-hidden rounded-xl"><img src="https://images.pexels.com/photos/34168189/pexels-photo-34168189.jpeg?auto=compress&cs=tinysrgb&h=800&w=600" alt="Hotel exterior at night" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep/90 via-transparent to-transparent"></div><div class="absolute bottom-4 left-4"><span class="text-xs font-semibold uppercase tracking-[0.15em] text-gold">Architecture</span></div></div></div>
+        <div class="reveal relative overflow-hidden rounded-xl group"><div class="relative h-full min-h-[200px] overflow-hidden rounded-xl"><img src="https://images.pexels.com/photos/5371566/pexels-photo-5371566.jpeg?auto=compress&cs=tinysrgb&h=500&w=600" alt="Concierge service" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" /><div class="absolute inset-0 bg-gradient-to-t from-onyx-deep/90 via-transparent to-transparent"></div><div class="absolute bottom-4 left-4"><span class="text-xs font-semibold uppercase tracking-[0.15em] text-gold">Personalized Service</span></div></div></div>
+        <div class="reveal relative overflow-hidden rounded-xl"><div class="flex h-full min-h-[200px] flex-col items-center justify-center rounded-xl border border-gold/20 bg-gradient-to-br from-gold/10 to-transparent p-6 text-center"><h3 class="font-serif text-lg font-bold text-white mb-2">Experience It All</h3><p class="text-xs text-slate-400 mb-4">Discover the full Maverick lifestyle.</p><a href="amenities.html" class="text-xs font-semibold text-gold hover:text-gold-light transition-colors">Explore Amenities →</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="py-24 md:py-32 bg-onyx-deep relative overflow-hidden">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] rounded-full blur-[120px]" style="background:rgba(212,175,55,0.05);"></div>
+    <div class="container-luxury relative">
+      <div class="reveal text-center mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Guest Voices</span>
+        <h2 class="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl" style="text-wrap:balance;">Stories from Our <span class="gold-text">Distinguished Guests</span></h2>
+      </div>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div class="reveal h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7"><svg class="w-8 h-8 text-gold/30 mb-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg><div class="flex gap-1 mb-4"><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="text-sm leading-relaxed text-slate-300 mb-6 italic">"Without question the finest hotel experience in Owerri. The Presidential Penthouse exceeded every expectation — the butler service was impeccable and the attention to detail was truly world-class."</p><div class="border-t border-white/5 pt-4"><p class="font-serif text-base font-bold text-white">Chief Emeka Nwosu</p><p class="text-xs text-gold/60 mt-0.5">Business Executive, Lagos</p></div></div>
+        <div class="reveal h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7"><svg class="w-8 h-8 text-gold/30 mb-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg><div class="flex gap-1 mb-4"><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="text-sm leading-relaxed text-slate-300 mb-6 italic">"Maverick Royal Suites redefines luxury hospitality in Nigeria. From the moment I arrived, I felt valued and cared for. The Royal Deluxe room was a sanctuary of calm and elegance."</p><div class="border-t border-white/5 pt-4"><p class="font-serif text-base font-bold text-white">Dr. Amara Okafor</p><p class="text-xs text-gold/60 mt-0.5">Medical Director, Abuja</p></div></div>
+        <div class="reveal h-full rounded-xl border border-white/5 bg-gradient-to-b from-white/[0.04] to-transparent p-7"><svg class="w-8 h-8 text-gold/30 mb-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg><div class="flex gap-1 mb-4"><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg class="w-4 h-4 text-gold" fill="#D4AF37" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="text-sm leading-relaxed text-slate-300 mb-6 italic">"I have stayed in five-star hotels across three continents. Maverick holds its own against the very best. The concierge team anticipated every need before I even asked."</p><div class="border-t border-white/5 pt-4"><p class="font-serif text-base font-bold text-white">Mr. James Bello</p><p class="text-xs text-gold/60 mt-0.5">International Investor, London</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="relative py-24 md:py-32 overflow-hidden">
+    <div class="absolute inset-0"><img src="https://images.pexels.com/photos/14036254/pexels-photo-14036254.jpeg?auto=compress&cs=tinysrgb&h=1200&w=1920" alt="Maverick Royal Suites interior" class="h-full w-full object-cover" /><div class="absolute inset-0" style="background:rgba(2,6,23,0.85);"></div><div class="absolute inset-0" style="background:linear-gradient(90deg, rgba(2,6,23,1), rgba(2,6,23,0.7), transparent);"></div></div>
+    <div class="relative z-10 container-luxury">
+      <div class="reveal max-w-2xl">
+        <span class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Your Suite Awaits</span>
+        <h2 class="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl" style="text-wrap:balance;">Begin Your <span class="gold-text">Maverick</span> Story Today</h2>
+        <p class="mt-5 text-base text-slate-300 leading-relaxed max-w-xl">Whether for business or leisure, every stay at Maverick Royal Suites is an invitation to experience Nigerian hospitality at its most refined. Reserve your suite now — our concierge team is ready to welcome you.</p>
+        <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+          <a href="#booking-widget" class="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-8 py-3.5 text-sm font-bold text-onyx transition-all duration-300 hover:scale-105 hover:gold-glow"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg> Reserve Your Stay</a>
+          <a href="tel:2347078365298" class="inline-flex items-center justify-center gap-2 rounded-full gold-border px-8 py-3.5 text-sm font-semibold text-gold transition-all duration-300 hover:bg-gold hover:text-onyx"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> +234 707 836 5298</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="border-t border-gold/10 bg-onyx-deep">
+    <div class="container-luxury py-16">
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div class="space-y-4"><a href="index.html" class="flex items-center gap-2.5"><svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 16L3 7l5.5 4L12 5l3.5 6L21 7l-2 9H5zm0 2h14"/></svg><div class="flex flex-col leading-none"><span class="font-serif text-lg font-bold text-white">Maverick Royal</span><span class="text-[10px] uppercase tracking-[0.25em] text-gold/80">Suites & Hotel</span></div></a><p class="text-sm leading-relaxed text-slate-400 max-w-xs">Five-star boutique luxury in the heart of Owerri. Where Nigerian hospitality meets world-class elegance.</p></div>
+        <div><h3 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-5">Explore</h3><ul class="space-y-3"><li><a href="index.html" class="text-sm text-slate-400 hover:text-gold transition-colors">Home</a></li><li><a href="rooms.html" class="text-sm text-slate-400 hover:text-gold transition-colors">Rooms</a></li><li><a href="amenities.html" class="text-sm text-slate-400 hover:text-gold transition-colors">Amenities</a></li><li><a href="dining.html" class="text-sm text-slate-400 hover:text-gold transition-colors">Dining</a></li><li><a href="contact.html" class="text-sm text-slate-400 hover:text-gold transition-colors">Contact</a></li></ul></div>
+        <div><h3 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-5">Contact</h3><ul class="space-y-4 text-sm text-slate-400"><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>Sir White Junction, Works Layout Road Extension, Owerri, Nigeria</span></li><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:2347078365298" class="hover:text-gold transition-colors">+234 707 836 5298</a></li><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:reservations@maverickroyalsuites.com" class="hover:text-gold transition-colors">reservations@maverickroyalsuites.com</a></li></ul></div>
+        <div><h3 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-5">Concierge</h3><ul class="space-y-4 text-sm text-slate-400"><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>Front Desk: 24 Hours</span></li><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>Check-in: 2:00 PM</span></li><li class="flex gap-3"><svg class="w-4 h-4 text-gold/60 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>Check-out: 12:00 PM</span></li></ul></div>
+      </div>
+      <div class="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row"><p class="text-xs text-slate-500">&copy; 2026 Maverick Royal Suites & Hotel Ltd. All rights reserved.</p><p class="text-xs text-slate-500">Sir White Junction, Works Layout Road Extension, Owerri</p></div>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FAB ========== -->
+  <a href="https://wa.me/2347078365298" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp" class="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full transition-transform hover:scale-110" style="background:#25D366;box-shadow:0 4px 16px rgba(37,211,102,0.3);">
+    <svg class="w-7 h-7 text-white" fill="white" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l4.93-1.38C8.42 21.5 10.15 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 3.5c3.59 0 6.5 2.91 6.5 6.5s-2.91 6.5-6.5 6.5-6.5-2.91-6.5-6.5S8.41 5.5 12 5.5z"/></svg>
+    <span class="absolute inset-0 animate-ping rounded-full opacity-20" style="background:#25D366;"></span>
+  </a>
+
+  <!-- ========== BOOKING MODAL ========== -->
+  <div id="booking-modal" class="hidden fixed inset-0 z-[70] items-center justify-center p-4">
+    <div class="absolute inset-0" style="background:rgba(2,6,23,0.8);backdrop-filter:blur(4px);" onclick="document.getElementById('booking-modal').classList.add('hidden');document.body.style.overflow='';"></div>
+    <div class="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl glass-dark gold-border luxury-shadow" onclick="event.stopPropagation();">
+      <div class="relative px-6 pt-8 pb-6 text-center border-b border-gold/10">
+        <button id="booking-modal-close" class="absolute right-5 top-5 text-slate-400 hover:text-white transition-colors" aria-label="Close"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+        <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full gold-gradient gold-glow"><svg class="w-8 h-8 text-onyx" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+        <h2 class="font-serif text-2xl md:text-3xl font-bold text-white">Reservation Pending Confirmation</h2>
+        <p class="mt-2 text-sm text-slate-300 max-w-md mx-auto leading-relaxed">Your reservation request has been prepared. Choose how you would like to finalize your booking.</p>
+      </div>
+      <div class="px-6 py-6 border-b border-gold/10">
+        <h3 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-4">Reservation Summary</h3>
+        <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <div class="flex items-center gap-3 rounded-lg bg-white/5 px-4 py-3"><svg class="w-4 h-4 text-gold/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"/></svg><div class="min-w-0"><p class="text-[10px] uppercase tracking-wider text-slate-500">Room Type</p><p id="modal-room-type" class="text-sm font-medium text-white truncate">Executive Suite</p></div></div>
+          <div class="flex items-center gap-3 rounded-lg bg-white/5 px-4 py-3"><svg class="w-4 h-4 text-gold/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg><div class="min-w-0"><p class="text-[10px] uppercase tracking-wider text-slate-500">Check-In</p><p id="modal-check-in" class="text-sm font-medium text-white truncate">Not selected</p></div></div>
+          <div class="flex items-center gap-3 rounded-lg bg-white/5 px-4 py-3"><svg class="w-4 h-4 text-gold/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg><div class="min-w-0"><p class="text-[10px] uppercase tracking-wider text-slate-500">Check-Out</p><p id="modal-check-out" class="text-sm font-medium text-white truncate">Not selected</p></div></div>
+          <div class="flex items-center gap-3 rounded-lg bg-white/5 px-4 py-3"><svg class="w-4 h-4 text-gold/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg><div class="min-w-0"><p class="text-[10px] uppercase tracking-wider text-slate-500">Guests</p><p id="modal-guests" class="text-sm font-medium text-white truncate">2 Adults, 0 Children</p></div></div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-6">
+        <div class="rounded-xl border border-white/10 bg-white/5 p-5"><h3 class="font-serif text-lg font-bold text-white mb-2">Pay at Property</h3><p class="text-xs leading-relaxed text-slate-400 mb-4">Your room can be reserved without immediate payment. Complete payment at the front desk upon arrival using POS, Cash, or Bank Transfer, subject to confirmation by our reservations team.</p><div class="flex items-center gap-4"><div class="flex flex-col items-center gap-1"><svg class="w-5 h-5 text-gold/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg><span class="text-[9px] text-slate-500">POS</span></div><div class="flex flex-col items-center gap-1"><svg class="w-5 h-5 text-gold/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg><span class="text-[9px] text-slate-500">Cash</span></div><div class="flex flex-col items-center gap-1"><svg class="w-5 h-5 text-gold/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg><span class="text-[9px] text-slate-500">Transfer</span></div></div></div>
+        <div class="relative rounded-xl border border-gold/30 bg-gradient-to-br from-gold/10 to-transparent p-5 overflow-hidden"><div class="absolute top-0 right-0 w-24 h-24 rounded-full blur-2xl" style="background:rgba(212,175,55,0.05);"></div><h3 class="font-serif text-lg font-bold text-gold mb-2">Speak With Concierge</h3><p class="text-xs leading-relaxed text-slate-400 mb-4">Connect directly with our reservations team via WhatsApp to finalize your booking and receive our official bank details for a direct transfer.</p><a id="modal-whatsapp" href="https://wa.me/2347078365298" target="_blank" rel="noopener noreferrer" class="inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-bold text-white transition-transform hover:scale-105" style="background:#25D366;"><svg class="w-4 h-4" fill="white" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l4.93-1.38C8.42 21.5 10.15 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg> Continue via WhatsApp</a></div>
+      </div>
+      <div class="px-6 pb-6"><p class="text-center text-[11px] text-slate-500">No payment will be processed online. This is a reservation request only.</p></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
